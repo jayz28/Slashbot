@@ -22,6 +22,8 @@ help:
 install:
 	@npm update
 	@npm install
+
+migrate:
 	@npm run knex -- migrate:latest
 
 # Seed DB with dev character
